@@ -1,0 +1,121 @@
+/* ==========CSS RESET========== */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  backdrop-filter: blur(8px);
+  transition: 0.3s;
+}
+
+.navbar .nav-link {
+  transition: 0.2s;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* ================= HERO ================= */
+.badge {
+  border-radius: 50px;
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.25);
+}
+
+.btn-outline-primary:hover {
+  transform: translateY(-2px);
+}
+
+/* ================= CARDS ================= */
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= IMAGES ================= */
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+/* ================= INPUT GROUP ================= */
+.input-group {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.input-group-text {
+  background-color: #fff;
+  border-right: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #0d6efd;
+}
+
+/* ================= SECTIONS ================= */
+section {
+  margin-bottom: 20px;
+}
+
+/* ================= LIGHT SECTION ================= */
+.bg-light {
+  background-color: #f8f9fc !important;
+  border-radius: 16px;
+}
+
+/* ================= FOOTER ================= */
+footer img {
+  transition: 0.3s;
+}
+
+footer img:hover {
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* ================= LINKS ================= */
+a {
+  text-decoration: none;
+}
+
+/* ================= SMALL DEVICES ================= */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+}
