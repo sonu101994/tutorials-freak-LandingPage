@@ -10,518 +10,600 @@
      <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body id="top">
      <div class="container-fluid px-3">
 
           <!-- ================= HEADER SECTION START ================= -->
-     <!-- This is the top navigation bar containing logo, search, and menu links -->
-     <header class="sticky-top bg-white border-bottom">
-          <div class="container-xxl">
+          <!-- This is the top navigation bar containing logo, search, and menu links -->
+          <header class="sticky-top bg-white border-bottom">
+               <div class="container-xxl">
 
-               <nav class="navbar navbar-expand-lg py-2">
+                    <nav class="navbar navbar-expand-lg py-2">
 
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="#">
-                         <img src="Images/Logo.svg" alt="TutorialsFreak.com" height="40">
-                    </a>
+                         <!-- Logo -->
+                         <a class="navbar-brand" href="#top">
+                              <img src="Images/Logo.svg" alt="TutorialsFreak.com" height="40">
+                         </a>
 
-                    <!-- Mobile Toggle -->
-                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                         data-bs-target="#navbarContent">
-                         <img src="Images/Menu.svg" alt="Menu" width="24">
-                    </button>
-
-                    <!-- Navbar Content -->
-                    <div class="collapse navbar-collapse" id="navbarContent">
-
-                         <!-- Search Bar -->
-                         <form class="position-relative flex-grow-1 my-3 my-lg-0 mx-lg-4">
-                              <input type="text" class="form-control ps-5" placeholder="What do you want to learn?">
-                              <img src="Images/Search.svg" alt="Search" width="20"
-                                   class="position-absolute top-50 start-0 translate-middle-y ms-3">
-                         </form>
-
-                         <!-- Nav Links -->
-                         <ul class="navbar-nav ms-auto align-items-lg-center text-center text-lg-start">
-
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Tutorials</a>
-                              </li>
-
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Examples</a>
-                              </li>
-
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Interview Questions</a>
-                              </li>
-
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Quizzes</a>
-                              </li>
-
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Login</a>
-                              </li>
-
-                              <!-- Subscribe Button -->
-                              <li class="nav-item d-none d-xxl-block ms-lg-3">
-                                   <button class="btn btn-primary">
-                                        Subscribe PRO
-                                   </button>
-                              </li>
-
-                              <!-- Globe Icon -->
-                              <li class="nav-item d-none d-xxl-flex ms-lg-2">
-                                   <a class="nav-link p-0" href="#">
-                                        <img src="Images/Globe.svg" width="24" height="24" alt="Language">
-                                   </a>
-                              </li>
-
-                         </ul>
-
-                    </div>
-
-               </nav>
-
-          </div>
-     </header>
-     <!-- ================= HEADER SECTION END ================= -->
-
-     <!-- ================= MAIN CONTENT START ================= -->
-     <main>
-
-          <!-- HERO SECTION (Main Landing Banner) -->
-          <section class="container-xl py-5">
-               <div class="row align-items-center">
-
-                    <div class="col-lg-6 text-center text-lg-start order-2 order-lg-1">
-
-                         <span class="badge bg-light text-primary mb-3 px-3 py-2">
-                              Creating
-                         </span>
-
-                         <h1 class="fw-bold display-5 mb-3">
-                              A Value Addition <br>
-                              To Your Learning Graph
-                         </h1>
-
-                         <p class="text-muted mb-4">
-                              Choose from 130,000 online video courses with new additions every month.
-                         </p>
-
-                         <button class="btn btn-primary btn-lg">
-                              Get Started Now
+                         <!-- Mobile Toggle -->
+                         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#navbarContent">
+                              <img src="Images/Menu.svg" alt="Menu" width="24">
                          </button>
 
-                    </div>
+                         <!-- Navbar Content -->
+                         <div class="collapse navbar-collapse" id="navbarContent">
 
-                    <div class="col-lg-6 text-center order-1 order-lg-2 mb-4 mb-lg-0">
-                         <img src="Images/Hero.png" class="img-fluid">
-                    </div>
+                              <!-- Search Bar -->
+                              <form class="position-relative flex-grow-1 my-3 my-lg-0 mx-lg-4">
+                                   <input type="text" class="form-control ps-5"
+                                        placeholder="What do you want to learn?">
+                                   <img src="Images/Search.svg" alt="Search" width="20"
+                                        class="position-absolute top-50 start-0 translate-middle-y ms-3">
+                              </form>
+
+                              <!-- Nav Links -->
+                              <ul class="navbar-nav ms-auto align-items-lg-center text-center text-lg-start">
+
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#" data-bs-toggle="collapse"
+                                             data-bs-target="#navbarContent">Tutorials</a>
+                                   </li>
+
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#" data-bs-toggle="collapse"
+                                             data-bs-target="#navbarContent">Examples</a>
+                                   </li>
+
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#" data-bs-toggle="collapse"
+                                             data-bs-target="#navbarContent">Interview Questions</a>
+                                   </li>
+
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#" data-bs-toggle="collapse"
+                                             data-bs-target="#navbarContent">Quizzes</a>
+                                   </li>
+
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#" data-bs-toggle="collapse"
+                                             data-bs-target="#navbarContent">Login</a>
+                                   </li>
+
+                                   <!-- Subscribe Button -->
+                                   <li class="nav-item d-none d-xxl-block ms-lg-3">
+                                        <button class="btn btn-primary">
+                                             Subscribe PRO
+                                        </button>
+                                   </li>
+
+                                   <!-- Globe Icon -->
+                                   <li class="nav-item d-none d-xxl-flex ms-lg-2">
+                                        <a class="nav-link p-0" href="#">
+                                             <img src="Images/Globe.svg" width="24" height="24" alt="Language">
+                                        </a>
+                                   </li>
+
+                              </ul>
+
+                         </div>
+
+                    </nav>
 
                </div>
-          </section>
+          </header>
+          <!-- ================= HEADER SECTION END ================= -->
 
-          <!-- FEATURES SECTION -->
-          <section class="container-xl py-5 text-center">
+          <!-- ================= MAIN CONTENT START ================= -->
+          <main>
 
-               <!-- Heading -->
-               <h6 class="text-primary fw-semibold">Features</h6>
-               <h2 class="fw-bold mb-3">A Value Addition To Your Learning Graph</h2>
-               <p class="text-muted mb-5">
-                    Choose from 130,000 online video courses with new <br class="d-none d-lg-block">
-                    additions published every month.
-               </p>
+               <!-- HERO SECTION (Main Landing Banner) -->
+               <section class="container-xl py-5">
+                    <div class="row align-items-center">
 
-               <!-- Cards -->
-               <div class="row g-4">
+                         <div class="col-lg-6 text-center text-lg-start order-2 order-lg-1">
 
-                    <!-- Card 1 -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                         <div class="card h-100 border p-4 text-start">
+                              <span class="badge bg-light text-primary mb-3 px-3 py-2">
+                                   Creating
+                              </span>
 
-                              <div class=" mb-3 d-inline-block">
-                                   <img src="Images/Award.svg" width="24" alt="Award">
-                              </div>
+                              <h1 class="fw-bold display-5 mb-3">
+                                   A Value Addition <br>
+                                   To Your Learning Graph
+                              </h1>
 
-                              <h5 class="fw-semibold">Certified Courses</h5>
-
-                              <p class="text-muted mb-0">
-                                   Learn industry-relevant skills through structured modules designed by experts.
+                              <p class="text-muted mb-4">
+                                   Choose from 130,000 online video courses with new additions every month.
                               </p>
 
-                         </div>
-                    </div>
-
-                    <!-- Card 2 -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                         <div class="card h-100 border p-4 text-start">
-
-                              <div class=" mb-3 d-inline-block">
-                                   <img src="Images/Professional.svg" width="24" alt="Professional">
-                              </div>
-
-                              <h5 class="fw-semibold">Professional Educator</h5>
-
-                              <p class="text-muted mb-0">
-                                   Get guidance from experienced instructors with real-world industry knowledge.
-                              </p>
+                              <button class="btn btn-primary btn-lg">
+                                   Get Started Now
+                              </button>
 
                          </div>
-                    </div>
 
-                    <!-- Card 3 -->
-                    <div class="col-12 col-md-6 col-lg-4">
-                         <div class="card h-100 border p-4 text-start">
-
-                              <div class=" mb-3 d-inline-block">
-                                   <img src="Images/Focus.svg" width="24" alt="Focus">
-                              </div>
-
-                              <h5 class="fw-semibold">Focus On Achievement</h5>
-
-                              <p class="text-muted mb-0">
-                                   Track progress with assignments, quizzes, and hands-on learning projects.
-                              </p>
-
-                         </div>
-                    </div>
-
-               </div>
-
-          </section>
-          <section class="container-xl py-5">
-               <div class="row align-items-center">
-
-                    <!-- Text Content -->
-                    <div class="col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start">
-
-                         <h2 class="fw-bold mb-3">
-                              Explore wide range of categories
-                         </h2>
-
-                         <p class="text-muted mb-4">
-                              Discover structured learning paths in programming, web development, data science,
-                              cybersecurity, and more with beginner to advanced level guidance.
-                         </p>
-
-                         <!-- List -->
-                         <ul class="list-unstyled text-start">
-
-                              <li class="d-flex align-items-start mb-3">
-                                   <img src="Images/List Style.svg" class="me-2 mt-1" width="16" alt="">
-                                   Step-by-step structured learning for better understanding.
-                              </li>
-
-                              <li class="d-flex align-items-start mb-3">
-                                   <img src="Images/List Style.svg" class="me-2 mt-1" width="16" alt="">
-                                   Practical coding exercises and real-world examples.
-                              </li>
-
-                              <li class="d-flex align-items-start">
-                                   <img src="Images/List Style.svg" class="me-2 mt-1" width="16" alt="">
-                                   Career-focused projects to build strong portfolios.
-                              </li>
-
-                         </ul>
-
-                         <!-- Button -->
-                         <button class="btn btn-primary mt-3">
-                              Get Started Now
-                         </button>
-
-                    </div>
-
-                    <!-- Image -->
-                    <div class="col-12 col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
-                         <img src="Images/Courses.svg" class="img-fluid" alt="Courses">
-                    </div>
-
-               </div>
-          </section>
-
-          <section class="container-xl py-5">
-
-               <div class="row g-4 justify-content-center">
-
-                    <!-- Card 1 -->
-                    <div class="col-12 col-md-6 col-lg-3">
-                         <div class="card h-100 border p-4">
-
-                              <div class=" mb-3">
-                                   <img src="Images/Courses Award.svg" width="24" alt="">
-                              </div>
-
-                              <h6 class="fw-semibold mb-2">
-                                   Learn Ethical Hacking for Beginners
-                              </h6>
-
-                              <p class="text-muted small">
-                                   Learn cybersecurity fundamentals, penetration testing basics, and security
-                                   principles.
-                              </p>
-
-                              <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
-                                   Get Started
-                                   <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
-                              </a>
-
-                         </div>
-                    </div>
-
-                    <!-- Card 2 -->
-                    <div class="col-12 col-md-6 col-lg-3">
-                         <div class="card h-100 border p-4">
-
-                              <div class=" mb-3">
-                                   <img src="Images/Courses Award.svg" width="24" alt="">
-                              </div>
-
-                              <h6 class="fw-semibold mb-2">
-                                   Data Structures & Algorithms Course
-                              </h6>
-
-                              <p class="text-muted small">
-                                   Master problem solving, coding logic, and algorithmic thinking for interviews.
-                              </p>
-
-                              <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
-                                   Get Started
-                                   <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
-                              </a>
-
-                         </div>
-                    </div>
-
-                    <!-- Card 3 -->
-                    <div class="col-12 col-md-6 col-lg-3">
-                         <div class="card h-100 border p-4">
-
-                              <div class=" mb-3">
-                                   <img src="Images/Courses Award.svg" width="24" alt="">
-                              </div>
-
-                              <h6 class="fw-semibold mb-2">
-                                   Front-End Web Development Course
-                              </h6>
-
-                              <p class="text-muted small">
-                                   Build responsive websites using HTML, CSS, JavaScript and modern UI practices.
-                              </p>
-
-                              <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
-                                   Get Started
-                                   <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
-                              </a>
-
-                         </div>
-                    </div>
-
-                    <!-- Card 4 -->
-                    <div class="col-12 col-md-6 col-lg-3">
-                         <div class="card h-100 border p-4">
-
-                              <div class=" mb-3">
-                                   <img src="Images/Courses Award.svg" width="24" alt="">
-                              </div>
-
-                              <h6 class="fw-semibold mb-2">
-                                   Google Analytics Mastery Course
-                              </h6>
-
-                              <p class="text-muted small">
-                                   Learn digital marketing analytics, SEO tracking, and performance measurement.
-                              </p>
-
-                              <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
-                                   Get Started
-                                   <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
-                              </a>
-
-                         </div>
-                    </div>
-
-               </div>
-
-               <!-- Button -->
-               <div class="text-center mt-5">
-                    <button class="btn btn-primary px-4">
-                         Explore All Courses
-                    </button>
-               </div>
-
-          </section>
-
-
-
-          <section class="container-xl py-5 text-center">
-
-               <!-- Heading -->
-               <h6 class="text-primary fw-semibold mb-2">
-                    Our Mission and Goals
-               </h6>
-
-               <h2 class="fw-bold mb-3">
-                    Start connecting and learn smartly
-               </h2>
-
-               <p class="text-muted mb-5">
-                    It is a long established fact that a reader will be distracted by the structured and
-                    practical learning experience designed for skill development.
-               </p>
-
-               <div class="row align-items-center g-4">
-
-                    <!-- Image -->
-                    <div class="col-12 col-lg-6 text-center">
-                         <img src="Images/Connected.svg" class="img-fluid" alt="Connected">
-                    </div>
-
-                    <!-- Content -->
-                    <div class="col-12 col-lg-6 text-start">
-
-                         <!-- Item 1 -->
-                         <div class="d-flex mb-4">
-
-                              <div class=" me-3 d-flex align-items-center justify-content-center">
-                                   <img src="Images/Professional.svg" width="16" alt="">
-                              </div>
-
-                              <div>
-                                   <h6 class="fw-semibold mb-1">
-                                        What is this platform about?
-                                   </h6>
-                                   <p class="text-muted mb-0">
-                                        This platform helps learners gain practical tech skills through structured
-                                        courses,
-                                        hands-on projects, and guided learning paths.
-                                   </p>
-                              </div>
-
+                         <div class="col-lg-6 text-center order-1 order-lg-2 mb-4 mb-lg-0">
+                              <img src="Images/Hero.png" class="img-fluid">
                          </div>
 
-                         <!-- Item 2 -->
-                         <div class="d-flex mb-4">
-
-                              <div class=" me-3 d-flex align-items-center justify-content-center">
-                                   <img src="Images/Professional.svg" width="16" alt="">
-                              </div>
-
-                              <div>
-                                   <h6 class="fw-semibold mb-1">
-                                        How does learning work here?
-                                   </h6>
-                                   <p class="text-muted mb-0">
-                                        Users learn through video lessons, practice exercises, quizzes, and real-world
-                                        projects designed to improve job-ready skills.
-                                   </p>
-                              </div>
-
-                         </div>
-
-                         <!-- Button -->
-                         <button class="btn btn-primary mt-3">
-                              Get Started Now
-                         </button>
-
                     </div>
+               </section>
 
-               </div>
-
-          </section>
-          <section class="container-xl py-5">
-
-               <div class="bg-light rounded-4 text-center p-5">
+               <!-- FEATURES SECTION -->
+               <section class="container-xl py-5 text-center">
 
                     <!-- Heading -->
-                    <h2 class="fw-bold mb-4">
-                         Set up your account today and start learning industry-ready skills with expert guidance.
-                    </h2>
+                    <h6 class="text-primary fw-semibold">Features</h6>
+                    <h2 class="fw-bold mb-3">A Value Addition To Your Learning Graph</h2>
+                    <p class="text-muted mb-5">
+                         Choose from 130,000 online video courses with new <br class="d-none d-lg-block">
+                         additions published every month.
+                    </p>
 
-                    <!-- Buttons -->
-                    <div class="d-flex flex-column flex-lg-row justify-content-center gap-3">
+                    <!-- Cards -->
+                    <div class="row g-4">
 
-                         <button class="btn btn-outline-primary px-4">
-                              Explore Courses
-                         </button>
+                         <!-- Card 1 -->
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card h-100 border p-4 text-start">
 
-                         <button class="btn btn-primary px-4">
-                              Get Started Now
-                         </button>
+                                   <div class=" mb-3 d-inline-block">
+                                        <img src="Images/Award.svg" width="24" alt="Award">
+                                   </div>
+
+                                   <h5 class="fw-semibold">Certified Courses</h5>
+
+                                   <p class="text-muted mb-0">
+                                        Learn industry-relevant skills through structured modules designed by experts.
+                                   </p>
+
+                              </div>
+                         </div>
+
+                         <!-- Card 2 -->
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card h-100 border p-4 text-start">
+
+                                   <div class=" mb-3 d-inline-block">
+                                        <img src="Images/Professional.svg" width="24" alt="Professional">
+                                   </div>
+
+                                   <h5 class="fw-semibold">Professional Educator</h5>
+
+                                   <p class="text-muted mb-0">
+                                        Get guidance from experienced instructors with real-world industry knowledge.
+                                   </p>
+
+                              </div>
+                         </div>
+
+                         <!-- Card 3 -->
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card h-100 border p-4 text-start">
+
+                                   <div class=" mb-3 d-inline-block">
+                                        <img src="Images/Focus.svg" width="24" alt="Focus">
+                                   </div>
+
+                                   <h5 class="fw-semibold">Focus On Achievement</h5>
+
+                                   <p class="text-muted mb-0">
+                                        Track progress with assignments, quizzes, and hands-on learning projects.
+                                   </p>
+
+                              </div>
+                         </div>
 
                     </div>
 
-               </div>
+               </section>
+               <section class="container-xl py-5">
+                    <div class="row align-items-center">
 
-          </section>
+                         <!-- Text Content -->
+                         <div class="col-12 col-lg-6 order-2 order-lg-1 text-center text-lg-start">
 
-          <section class="container-xl py-5">
+                              <h2 class="fw-bold mb-3">
+                                   Explore wide range of categories
+                              </h2>
 
-               <div class="row align-items-center g-5">
+                              <p class="text-muted mb-4">
+                                   Discover structured learning paths in programming, web development, data science,
+                                   cybersecurity, and more with beginner to advanced level guidance.
+                              </p>
 
-                    <!-- LEFT -->
-                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                              <!-- List -->
+                              <ul class="list-unstyled text-start">
 
-                         <h2 class="fw-bold mb-3">
-                              Get the learning app today
-                         </h2>
+                                   <li class="d-flex align-items-start mb-3">
+                                        <img src="Images/List Style.svg" class="me-2 mt-1" width="16" alt="">
+                                        Step-by-step structured learning for better understanding.
+                                   </li>
 
-                         <p class="text-muted mb-4">
-                              Learn anytime, anywhere with our mobile app offering courses, quizzes, and practice
-                              material on the go.
-                         </p>
+                                   <li class="d-flex align-items-start mb-3">
+                                        <img src="Images/List Style.svg" class="me-2 mt-1" width="16" alt="">
+                                        Practical coding exercises and real-world examples.
+                                   </li>
 
-                         <!-- Store Buttons -->
-                         <div
-                              class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start mb-4">
-                              <img src="Images/App Store.svg" height="40" alt="">
-                              <img src="Images/Google Play.svg" height="40" alt="">
+                                   <li class="d-flex align-items-start">
+                                        <img src="Images/List Style.svg" class="me-2 mt-1" width="16" alt="">
+                                        Career-focused projects to build strong portfolios.
+                                   </li>
+
+                              </ul>
+
+                              <!-- Button -->
+                              <button class="btn btn-primary mt-3">
+                                   Get Started Now
+                              </button>
+
                          </div>
 
-                         <p class="text-muted mb-2">
-                              Enter your mobile number to receive the app download link:
-                         </p>
+                         <!-- Image -->
+                         <div class="col-12 col-lg-6 order-1 order-lg-2 text-center mb-4 mb-lg-0">
+                              <img src="Images/Courses.svg" class="img-fluid" alt="Courses">
+                         </div>
 
-                         <!-- Input + Button -->
-                         <div class="row g-2">
+                    </div>
+               </section>
 
-                              <!-- Input Group -->
-                              <div class="col-12 col-md">
-                                   <div class="input-group">
+               <section class="container-xl py-5">
 
-                                        <!-- Country Code -->
-                                        <span class="input-group-text bg-white">
-                                             +91 <img src="Images/Chevron Down.svg" width="12" class="ms-1">
-                                        </span>
+                    <div class="row g-4 justify-content-center">
 
-                                        <!-- Input -->
-                                        <input type="tel" class="form-control" placeholder="Enter mobile number">
+                         <!-- Card 1 -->
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card h-100 border p-4">
 
+                                   <div class=" mb-3">
+                                        <img src="Images/Courses Award.svg" width="24" alt="">
                                    </div>
+
+                                   <h6 class="fw-semibold mb-2">
+                                        Learn Ethical Hacking for Beginners
+                                   </h6>
+
+                                   <p class="text-muted small">
+                                        Learn cybersecurity fundamentals, penetration testing basics, and security
+                                        principles.
+                                   </p>
+
+                                   <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
+                                        Get Started
+                                        <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
+                                   </a>
+
+                              </div>
+                         </div>
+
+                         <!-- Card 2 -->
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card h-100 border p-4">
+
+                                   <div class=" mb-3">
+                                        <img src="Images/Courses Award.svg" width="24" alt="">
+                                   </div>
+
+                                   <h6 class="fw-semibold mb-2">
+                                        Data Structures & Algorithms Course
+                                   </h6>
+
+                                   <p class="text-muted small">
+                                        Master problem solving, coding logic, and algorithmic thinking for interviews.
+                                   </p>
+
+                                   <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
+                                        Get Started
+                                        <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
+                                   </a>
+
+                              </div>
+                         </div>
+
+                         <!-- Card 3 -->
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card h-100 border p-4">
+
+                                   <div class=" mb-3">
+                                        <img src="Images/Courses Award.svg" width="24" alt="">
+                                   </div>
+
+                                   <h6 class="fw-semibold mb-2">
+                                        Front-End Web Development Course
+                                   </h6>
+
+                                   <p class="text-muted small">
+                                        Build responsive websites using HTML, CSS, JavaScript and modern UI practices.
+                                   </p>
+
+                                   <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
+                                        Get Started
+                                        <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
+                                   </a>
+
+                              </div>
+                         </div>
+
+                         <!-- Card 4 -->
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card h-100 border p-4">
+
+                                   <div class=" mb-3">
+                                        <img src="Images/Courses Award.svg" width="24" alt="">
+                                   </div>
+
+                                   <h6 class="fw-semibold mb-2">
+                                        Google Analytics Mastery Course
+                                   </h6>
+
+                                   <p class="text-muted small">
+                                        Learn digital marketing analytics, SEO tracking, and performance measurement.
+                                   </p>
+
+                                   <a href="#" class="text-primary fw-medium d-inline-flex align-items-center mt-auto">
+                                        Get Started
+                                        <img src="Images/Arrow Right.svg" class="ms-2" width="16" alt="">
+                                   </a>
+
+                              </div>
+                         </div>
+
+                    </div>
+
+                    <!-- Button -->
+                    <div class="text-center mt-5">
+                         <button class="btn btn-primary px-4">
+                              Explore All Courses
+                         </button>
+                    </div>
+
+               </section>
+
+
+
+               <section class="container-xl py-5 text-center">
+
+                    <!-- Heading -->
+                    <h6 class="text-primary fw-semibold mb-2">
+                         Our Mission and Goals
+                    </h6>
+
+                    <h2 class="fw-bold mb-3">
+                         Start connecting and learn smartly
+                    </h2>
+
+                    <p class="text-muted mb-5">
+                         It is a long established fact that a reader will be distracted by the structured and
+                         practical learning experience designed for skill development.
+                    </p>
+
+                    <div class="row align-items-center g-4">
+
+                         <!-- Image -->
+                         <div class="col-12 col-lg-6 text-center">
+                              <img src="Images/Connected.svg" class="img-fluid" alt="Connected">
+                         </div>
+
+                         <!-- Content -->
+                         <div class="col-12 col-lg-6 text-start">
+
+                              <!-- Item 1 -->
+                              <div class="d-flex mb-4">
+
+                                   <div class=" me-3 d-flex align-items-center justify-content-center">
+                                        <img src="Images/Professional.svg" width="16" alt="">
+                                   </div>
+
+                                   <div>
+                                        <h6 class="fw-semibold mb-1">
+                                             What is this platform about?
+                                        </h6>
+                                        <p class="text-muted mb-0">
+                                             This platform helps learners gain practical tech skills through structured
+                                             courses,
+                                             hands-on projects, and guided learning paths.
+                                        </p>
+                                   </div>
+
+                              </div>
+
+                              <!-- Item 2 -->
+                              <div class="d-flex mb-4">
+
+                                   <div class=" me-3 d-flex align-items-center justify-content-center">
+                                        <img src="Images/Professional.svg" width="16" alt="">
+                                   </div>
+
+                                   <div>
+                                        <h6 class="fw-semibold mb-1">
+                                             How does learning work here?
+                                        </h6>
+                                        <p class="text-muted mb-0">
+                                             Users learn through video lessons, practice exercises, quizzes, and
+                                             real-world
+                                             projects designed to improve job-ready skills.
+                                        </p>
+                                   </div>
+
                               </div>
 
                               <!-- Button -->
-                              <div class="col-12 col-md-auto">
-                                   <button class="btn btn-primary w-100">
-                                        Send Link
-                                   </button>
+                              <button class="btn btn-primary mt-3">
+                                   Get Started Now
+                              </button>
+
+                         </div>
+
+                    </div>
+
+               </section>
+               <section class="container-xl py-5">
+
+                    <div class="bg-light rounded-4 text-center p-5">
+
+                         <!-- Heading -->
+                         <h2 class="fw-bold mb-4">
+                              Set up your account today and start learning industry-ready skills with expert guidance.
+                         </h2>
+
+                         <!-- Buttons -->
+                         <div class="d-flex flex-column flex-lg-row justify-content-center gap-3">
+
+                              <button class="btn btn-outline-primary px-4">
+                                   Explore Courses
+                              </button>
+
+                              <button class="btn btn-primary px-4">
+                                   Get Started Now
+                              </button>
+
+                         </div>
+
+                    </div>
+
+               </section>
+
+               <section class="container-xl py-5">
+
+                    <div class="row align-items-center g-5">
+
+                         <!-- LEFT -->
+                         <div class="col-12 col-lg-6 text-center text-lg-start">
+
+                              <h2 class="fw-bold mb-3">
+                                   Get the learning app today
+                              </h2>
+
+                              <p class="text-muted mb-4">
+                                   Learn anytime, anywhere with our mobile app offering courses, quizzes, and practice
+                                   material on the go.
+                              </p>
+
+                              <!-- Store Buttons -->
+                              <div
+                                   class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start mb-4">
+                                   <img src="Images/App Store.svg" height="40" alt="">
+                                   <img src="Images/Google Play.svg" height="40" alt="">
+                              </div>
+
+                              <p class="text-muted mb-2">
+                                   Enter your mobile number to receive the app download link:
+                              </p>
+
+                              <!-- Input + Button -->
+                              <div class="row g-2">
+
+                                   <!-- Input Group -->
+                                   <div class="col-12 col-md">
+                                        <div class="input-group">
+
+                                             <!-- Country Code -->
+                                             <span class="input-group-text bg-white">
+                                                  +91 <img src="Images/Chevron Down.svg" width="12" class="ms-1">
+                                             </span>
+
+                                             <!-- Input -->
+                                             <input type="tel" class="form-control" placeholder="Enter mobile number">
+
+                                        </div>
+                                   </div>
+
+                                   <!-- Button -->
+                                   <div class="col-12 col-md-auto">
+                                        <button class="btn btn-primary w-100">
+                                             Send Link
+                                        </button>
+                                   </div>
+
+                              </div>
+
+                         </div>
+
+                         <!-- RIGHT -->
+                         <div class="col-12 col-lg-6 text-center">
+
+                              <!-- Wrapper fixes overlapping issue -->
+                              <div class="d-flex justify-content-center align-items-end gap-3 flex-wrap">
+
+                                   <img src="Images/iPhone Mockup.svg" class="img-fluid" style="max-width: 200px;"
+                                        alt="">
+
+                                   <img src="Images/iPhone Mockup White.svg" class="img-fluid" style="max-width: 200px;"
+                                        alt="">
+
                               </div>
 
                          </div>
 
                     </div>
 
-                    <!-- RIGHT -->
-                    <div class="col-12 col-lg-6 text-center">
+               </section>
+          </main>
 
-                         <!-- Wrapper fixes overlapping issue -->
-                         <div class="d-flex justify-content-center align-items-end gap-3 flex-wrap">
+          <!-- ================= MAIN CONTENT END ================= -->
+          <footer class="bg-light pt-5">
 
-                              <img src="Images/iPhone Mockup.svg" class="img-fluid" style="max-width: 200px;" alt="">
+               <div class="container-xl">
 
-                              <img src="Images/iPhone Mockup White.svg" class="img-fluid" style="max-width: 200px;"
-                                   alt="">
+                    <!-- Top Content -->
+                    <div class="row">
+
+                         <div class="col-12 mb-4">
+                              <h6 class="fw-semibold">
+                                   Trending Courses
+                              </h6>
+
+                              <p class="text-muted">
+                                   Popular courses include Web Development, Data Structures & Algorithms, Ethical
+                                   Hacking,
+                                   Digital Marketing, UI/UX Design, and Machine Learning. These are updated regularly
+                                   based
+                                   on industry demand.
+                              </p>
+                         </div>
+
+                         <div class="col-12 mb-5">
+                              <h6 class="fw-semibold">
+                                   About Tutorials Freak
+                              </h6>
+
+                              <p class="text-muted">
+                                   TutorialsFreak is a modern e-learning platform focused on practical skill
+                                   development.
+                                   We provide structured courses, hands-on practice, and career-oriented learning paths
+                                   to help students and professionals grow in the tech industry.
+                              </p>
+                         </div>
+
+                    </div>
+
+                    <!-- Bottom Section -->
+                    <div class="row align-items-center border-top pt-4">
+
+                         <!-- Left -->
+                         <div class="col-12 col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+                              <img src="Images/Logo.svg" alt="Logo" height="40" class="mb-2">
+
+                              <p class="text-muted small mb-0">
+                                   Terms & Conditions | Privacy Policy
+                              </p>
+                         </div>
+
+                         <!-- Right -->
+                         <div class="col-12 col-lg-6 text-center text-lg-end">
+
+                              <!-- Social Icons -->
+                              <div class="d-flex justify-content-center justify-content-lg-end gap-3 mb-2">
+                                   <img src="Images/Facebook.svg" alt="Facebook" width="20">
+                                   <img src="Images/Twitter.svg" alt="Twitter" width="20">
+                                   <img src="Images/Instagram.svg" alt="Instagram" width="20">
+                                   <img src="Images/LinkedIn.svg" alt="LinkedIn" width="20">
+                              </div>
+
+                              <!-- Copyright -->
+                              <p class="text-muted small mb-0">
+                                   ©2022 TutorialsFreak. All Rights Reserved | Designed by WsCubeTech
+                              </p>
 
                          </div>
 
@@ -529,78 +611,7 @@
 
                </div>
 
-          </section>
-     </main>
-
-     <!-- ================= MAIN CONTENT END ================= -->
-     <footer class="bg-light pt-5">
-
-          <div class="container-xl">
-
-               <!-- Top Content -->
-               <div class="row">
-
-                    <div class="col-12 mb-4">
-                         <h6 class="fw-semibold">
-                              Trending Courses
-                         </h6>
-
-                         <p class="text-muted">
-                              Popular courses include Web Development, Data Structures & Algorithms, Ethical Hacking,
-                              Digital Marketing, UI/UX Design, and Machine Learning. These are updated regularly based
-                              on industry demand.
-                         </p>
-                    </div>
-
-                    <div class="col-12 mb-5">
-                         <h6 class="fw-semibold">
-                              About Tutorials Freak
-                         </h6>
-
-                         <p class="text-muted">
-                              TutorialsFreak is a modern e-learning platform focused on practical skill development.
-                              We provide structured courses, hands-on practice, and career-oriented learning paths
-                              to help students and professionals grow in the tech industry.
-                         </p>
-                    </div>
-
-               </div>
-
-               <!-- Bottom Section -->
-               <div class="row align-items-center border-top pt-4">
-
-                    <!-- Left -->
-                    <div class="col-12 col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
-                         <img src="Images/Logo.svg" alt="Logo" height="40" class="mb-2">
-
-                         <p class="text-muted small mb-0">
-                              Terms & Conditions | Privacy Policy
-                         </p>
-                    </div>
-
-                    <!-- Right -->
-                    <div class="col-12 col-lg-6 text-center text-lg-end">
-
-                         <!-- Social Icons -->
-                         <div class="d-flex justify-content-center justify-content-lg-end gap-3 mb-2">
-                              <img src="Images/Facebook.svg" alt="Facebook" width="20">
-                              <img src="Images/Twitter.svg" alt="Twitter" width="20">
-                              <img src="Images/Instagram.svg" alt="Instagram" width="20">
-                              <img src="Images/LinkedIn.svg" alt="LinkedIn" width="20">
-                         </div>
-
-                         <!-- Copyright -->
-                         <p class="text-muted small mb-0">
-                              ©2022 TutorialsFreak. All Rights Reserved | Designed by WsCubeTech
-                         </p>
-
-                    </div>
-
-               </div>
-
-          </div>
-
-     </footer>
+          </footer>
      </div>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
           crossorigin="anonymous"></script>
