@@ -59,7 +59,7 @@ No backend or JavaScript functionality has been implemented yet.
 ---
 
 ## 💻 GitHub Repository
-👉 https://github.com/sonu101994/tutorials-freak-LandingPage
+👉 https://github.com/sonu101994/tutorials-freak-LandingPage/
 
 ## 👨‍💻 Made By
 Bhawani Singh
